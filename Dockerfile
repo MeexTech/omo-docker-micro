@@ -12,7 +12,6 @@ MAINTAINER XTech Cloud "xtech.cloud"
 
 ENV container docker
 ENV MICRO_REGISTRY consul
-ENV MICRO_REGISTRY_ADDRESS
 
 ADD micro /usr/local/bin/
 RUN chmod +x /usr/local/bin/micro
